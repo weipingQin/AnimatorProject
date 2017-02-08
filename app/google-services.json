@@ -1,0 +1,45 @@
+{
+  "project_info": {
+    "project_number": "951641079968",
+    "firebase_url": "https://tuyaproject-4a259.firebaseio.com",
+    "project_id": "tuyaproject-4a259",
+    "storage_bucket": "tuyaproject-4a259.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:951641079968:android:64fcf2df8ac7e17a",
+        "android_client_info": {
+          "package_name": "com.test.tuyaproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "951641079968-14aqiee5os79ajtgco7ls0pn4lnt6ihb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAZJw3-NrVpST538HvDMJ9QDFvOfqo4CXg"
+        },
+        {
+          "current_key": "AIzaSyCMUA0TawhyzqwJPLHrz-YrHmwZ67AFxKk"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -54,7 +54,7 @@ public class CustomTextView extends TextView implements Animatable{
 
     public void startRotate() {
         this.setCompoundDrawablesWithIntrinsicBounds(drawable, null, null, null);
-        setCompoundDrawablePadding(15);
+        setCompoundDrawablePadding(25);
         drawable.startRotate();
     }
 

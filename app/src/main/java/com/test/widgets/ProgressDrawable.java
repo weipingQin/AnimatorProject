@@ -15,6 +15,7 @@ import android.graphics.PixelFormat;
 import android.graphics.RectF;
 import android.graphics.drawable.Animatable;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.animation.AccelerateInterpolator;
 import android.widget.TextView;
 
@@ -23,6 +24,7 @@ import android.widget.TextView;
  */
 
 public class ProgressDrawable extends Drawable {
+    public static final String TAG = ProgressDrawable.class.getSimpleName();
     private Paint mPaint;
     private float width;
     private static final int STAGE_NULL = 0, STAGE_ROTATE = 1, STAGE_FINISH = 2, STAGE_ERROR = 3;
@@ -131,6 +133,7 @@ public class ProgressDrawable extends Drawable {
                 public void onAnimationUpdate(ValueAnimator animation) {
                     degreen += 5;
                     invalidateSelf();
+                    Log.d(TAG,"animation degress--->"+animation.getAnimatedValue());
                 }
             });
         }

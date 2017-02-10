@@ -15,6 +15,7 @@ import android.graphics.PixelFormat;
 import android.graphics.RectF;
 import android.graphics.drawable.Animatable;
 import android.graphics.drawable.Drawable;
+import android.util.Log;
 import android.view.animation.AccelerateInterpolator;
 import android.widget.ImageView;
 
@@ -23,6 +24,7 @@ import android.widget.ImageView;
  */
 
 public class ProgressDrawableForImageView extends Drawable {
+    public static final String TAG = "ProgressDrawableForImageView";
 
     private Paint mPaint;
     private float width;
